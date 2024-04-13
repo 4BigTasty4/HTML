@@ -1,0 +1,25 @@
+
+p{
+    color: black;
+    font-size: 40px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+ }
+
+.BlackBox{
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 90px;
+    margin-left: 50px;
+    margin-right: -40px;
+}
+
+.RedBox{
+    color: darkred;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 90px;
+    margin-left: 50px;
+    margin-right: -40px;
+}
