@@ -1,0 +1,166 @@
+h1 {
+  font-family: sans-serif;
+}
+
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+li {
+  margin-left: 40px;
+}
+
+.UlFon {
+  position: relative;
+  list-style: none;
+  padding: 0px;
+}
+
+.LiComplate {
+  background: rgb(215, 217, 218);
+}
+
+.LiNone {
+  background: rgb(180, 226, 230);
+}
+
+.LiDifNone {
+  background: rgb(164, 235, 240);
+}
+
+.LiFon::before {
+  content: url(/HM2/img/unchecked_16.jpg.png);
+  position: absolute;
+  left: 1%;
+  top: auto;
+}
+
+.LiEl::before {
+  content: url(/HM2/img/checked_16.png);
+  position: absolute;
+  left: 1%;
+  top: auto;
+}
+
+.X1 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 11%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+
+.X2 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 9%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X3 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 10%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X4 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 9.5%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X5 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 12%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X6 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 13%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X7 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 10.5%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X8 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 9.5%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X9 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 11%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X10 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 10%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(-35%);
+}
+.X11 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 10.5%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
+.X12 .XFon::after {
+  content: "\2715";
+  position: absolute;
+  left: 9%;
+  top: auto;
+  color: darkred;
+  font-size: small;
+  -webkit-text-stroke: thick;
+  transform: translateY(35%);
+}
